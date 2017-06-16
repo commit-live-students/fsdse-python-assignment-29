@@ -1,2 +1,4 @@
 def solution(dic):
-    "Enter Code here"
+    v = []
+    v = list(dic.values())
+    return (max(v),min(v))
