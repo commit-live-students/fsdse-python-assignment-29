@@ -1,2 +1,6 @@
 def solution(dic):
-    "Enter Code here"
+    tup = ()
+    lis = dic.values()
+    Max = max(lis)
+    Min = min(lis)
+    return (Max,Min)
