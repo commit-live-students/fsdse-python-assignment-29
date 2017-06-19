@@ -1,2 +1,3 @@
 def solution(dic):
-    "Enter Code here"
+    li=sorted(dic.values())
+    return (max(li),min(li))
